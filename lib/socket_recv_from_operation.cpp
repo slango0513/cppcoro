@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_NET
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -93,4 +94,5 @@ cppcoro::net::socket_recv_from_operation_impl::get_result(
 			*reinterpret_cast<SOCKADDR*>(&m_sourceSockaddrStorage)));
 }
 
+#endif
 #endif

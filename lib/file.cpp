@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_IO
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -166,3 +167,4 @@ cppcoro::detail::win32::safe_handle cppcoro::file::open(
 
 	return std::move(fileHandle);
 }
+#endif

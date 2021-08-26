@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_IO
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -33,4 +34,5 @@ cppcoro::read_only_file::read_only_file(
 {
 }
 
+#endif
 #endif

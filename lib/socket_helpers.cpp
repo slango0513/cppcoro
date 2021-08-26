@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_NET
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -83,3 +84,4 @@ int cppcoro::net::detail::ip_endpoint_to_sockaddr(
 }
 
 #endif // CPPCORO_OS_WINNT
+#endif

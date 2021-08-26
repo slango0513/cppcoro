@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_NET
 ///////////////////////////////////////////////////////////////////////////////
 // Kt C++ Library
 // Copyright (c) 2015 Lewis Baker
@@ -82,3 +83,4 @@ cppcoro::net::ipv6_endpoint::from_string(std::string_view string) noexcept
 
 	return ipv6_endpoint{ *address, *port };
 }
+#endif

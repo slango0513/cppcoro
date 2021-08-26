@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_NET
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -92,4 +93,5 @@ namespace cppcoro
 
 #endif // CPPCORO_OS_WINNT
 
+#endif
 #endif

@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_NET
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -360,3 +361,4 @@ std::string cppcoro::net::ipv6_address::to_string() const
 
 	return std::string{ &buffer[0], c };
 }
+#endif

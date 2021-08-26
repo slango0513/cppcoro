@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_NET
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -25,3 +26,4 @@ cppcoro::net::ip_endpoint::from_string(std::string_view string) noexcept
 
 	return std::nullopt;
 }
+#endif

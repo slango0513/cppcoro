@@ -1,3 +1,4 @@
+#ifndef CPPCORO_DISABLE_IO
 ///////////////////////////////////////////////////////////////////////////////
 // Copyright (c) Lewis Baker
 // Licenced under MIT license. See LICENSE.txt for details.
@@ -51,3 +52,4 @@ void cppcoro::file_read_operation_impl::cancel(
 }
 
 #endif // CPPCORO_OS_WINNT
+#endif
